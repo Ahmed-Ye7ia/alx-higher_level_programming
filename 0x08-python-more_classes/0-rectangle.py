@@ -3,6 +3,7 @@
 Rectangle class
 '''
 
+
 class Rectangle():
     '''
     define of the class
