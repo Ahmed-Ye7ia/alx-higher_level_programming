@@ -3,6 +3,7 @@
 LockedClass
 """
 
+
 class LockedClass:
     """
     class definition.
