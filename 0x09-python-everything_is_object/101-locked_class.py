@@ -4,6 +4,8 @@ LockedClass
 """
 
 class LockedClass:
-    """class definition."""
+    """
+    class definition.
+    """
 
     __slots__ = ['first_name']
