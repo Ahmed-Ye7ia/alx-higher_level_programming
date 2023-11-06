@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-contain method thatreturns True if 
-object is exactly an instance of specified class.
-"""
+'''Module for is_same_class method.'''
 
 
 def is_same_class(obj, a_class):
