@@ -13,4 +13,4 @@ arglist = list(sys.argv[1:])
 old_content = load_from_json_file('add_item.json')
 
 old_content.extend(arglist)
-save_to_json_file(old_cotent, 'add_item.json')
+save_to_json_file(arglist, 'add_item.json')
