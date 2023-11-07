@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains function that writes a string to a text file 
+Contains function that writes a string to a text file
 """
 
 
