@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """
-adds and saves to Python obj to JSON file; loads objects
+This module defines a script which takes argvs
+and appends them to a python list, then writes
+the data in a new text file 'add_item.json' in
+JSON format.
 """
 
 
