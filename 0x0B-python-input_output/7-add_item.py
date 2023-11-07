@@ -12,7 +12,7 @@ arglist = list(argv[1:])
 
 try:
     old_content = load_from_json_file("add_item.json")
-except FileNotFoundError:
+except Exception:
     old_content = []
 
 old_content.extend(arglist)
