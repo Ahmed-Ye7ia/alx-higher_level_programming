@@ -14,5 +14,6 @@ try:
     old_content = load_from_json_file("add_item.json")
 except FileNotFoundError:
     old_content = []
+
 old_content.extend(arglist)
-save_to_json_file(old_content , "add_item.json")
+save_to_json_file(old_content, "add_item.json")
