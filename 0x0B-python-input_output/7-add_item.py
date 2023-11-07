@@ -14,6 +14,6 @@ f = "add_item.json"
 try:
     old_content = load_from_json_file(f)
 except FileNotFoundError:
-    existing_content = []
+    old_content = []
 
 save_to_json_file(old_content + argv[1:], f)
