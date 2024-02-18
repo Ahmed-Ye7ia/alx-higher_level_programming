@@ -13,8 +13,8 @@ if __name__ == "__main__":
     db = MySQLdb.connect(host = "local host",
                          port = 3306,
                          user = argv[1],
-                         passwd = argv[2],
-                         db = argv[3])
+                         password = argv[2],
+                         name = argv[3])
 
     # creatint cursor
     cursor = db.cursor()
