@@ -10,16 +10,16 @@ from sys import argv
 if __name__ == "__main__":
 
     # connect to database
-    db = MySQLdb.connect(host = "local host",
+    data = MySQLdb.connect(host = "local host",
                          port = 3306,
                          user = argv[1],
-                         password = argv[2],
-                         name = argv[3])
+                         passwd = argv[2],
+                         db = argv[3])
 
     # creatint cursor
-    cursor = db.cursor()
+    cursor = data.cursor()
     cursor.execute("SELECT * FROM states ORDER BY id ASC")
     for row in cursor.fetchall():
         print(row)
     cursor.close()
-    db.close()
+    data.close()
