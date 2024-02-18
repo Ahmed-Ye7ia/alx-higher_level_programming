@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a script that lists all states with a name starting with N (upper N) 
+a script that lists all states with a name starting with N (upper N)
 """
 
 import MySQLdb
