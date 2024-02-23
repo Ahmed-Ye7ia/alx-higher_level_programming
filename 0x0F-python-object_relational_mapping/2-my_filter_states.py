@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-return matching states
-parameters given to script: username, password, database, state to match
-"""
+"""  lists all states from the database hbtn_0e_0_usa """
 
 import MySQLdb
 from sys import argv
